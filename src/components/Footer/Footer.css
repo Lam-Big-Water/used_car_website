@@ -1,0 +1,11 @@
+.footer {
+    width: 100%;
+    background: url(./footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .statement {
+    text-align: center;
+    color: #fff;
+}

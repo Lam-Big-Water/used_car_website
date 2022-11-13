@@ -1,0 +1,50 @@
+/* 动画部分 */
+.img {
+    /* background-image: url(./images/banner.jpg); */
+    background: no-repeat cover;
+    background-position:30% 70%;
+}
+
+
+.slide {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+
+
+.slide .content{
+    width: 85rem;
+    display: none;
+}
+
+.slide .content{
+    display: inline-block;
+}
+
+.slide .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light-white);
+    padding-bottom: 1rem;
+    animation:fadeIn .2s linear backwards .2s;
+}
+
+.slide .content h3{
+    font-size: 6vw;
+    color:var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding:1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+
+.slide .content .btn{
+    animation:fadeIn .2s linear backwards .6s;
+}

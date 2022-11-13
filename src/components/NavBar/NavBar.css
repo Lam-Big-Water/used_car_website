@@ -1,0 +1,94 @@
+.header {
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: var(--white);
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .navbar a {
+    position: relative;
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+}
+
+.header nav a:hover,
+.header nav a.active {
+    color: var(--black);
+}
+
+.header nav a.active::after,
+.header nav a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: var(--black);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+.header .navbar a:hover {
+    color: var(--black);
+}
+
+#menu-btn {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--black);
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .header nav a.active::after,
+    .header nav a:hover::after {
+        content: "";
+        width: 0;
+        height: 0;
+    }
+
+    #menu-btn {
+        display: inline-block;
+        transition: .2s linear;
+    }
+    
+    #menu-btn.fa-times {
+        transform: rotate(180deg);
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        padding: 2rem;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a {
+        display: block;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .header .navbar a:hover {
+        text-decoration: underline;
+    }
+}

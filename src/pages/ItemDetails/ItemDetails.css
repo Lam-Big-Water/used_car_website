@@ -1,0 +1,85 @@
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.details .img-area {
+    flex: 1 1 60%;
+}
+
+.details .img-area .collect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.details .img-area img {
+    vertical-align: middle;
+}
+
+.details .img-area .collect div {
+    width: 50%;
+}
+
+.details .img-area .collect div img {
+    width: 100%;
+}
+
+.details .img-area img {
+    width: 100%;
+}
+
+.details .info {
+    flex: 1 1 40%;
+    min-height: 60rem;
+    padding-left: 5rem;
+    text-align: left;
+}
+
+.details .info .context {
+    position: sticky;
+    width: 30rem;
+    top: 10rem;
+    overflow: hidden;
+}
+
+.details .info .context h3 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+.details .info .context h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+.details .info .context span {
+    font-size: 1.8rem;
+    line-height: 2.2;
+    
+}
+
+@media (max-width: 450px) {
+    .details {
+        display: block;
+    }
+
+    .details .img-area {
+        flex: 1 1 100%;
+    }
+
+    .details .info {
+        flex: 1 1 100%;
+        padding: 0;
+    }
+
+    .details .info .context {
+        display: block;
+        width: 100%;
+    }
+}

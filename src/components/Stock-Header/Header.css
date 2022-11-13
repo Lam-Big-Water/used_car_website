@@ -1,0 +1,109 @@
+.stock h2 {
+    font-size: 6rem;
+}
+
+.stock .facets-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 900;
+    padding-top: 5rem;
+    line-height: 1;
+}
+
+.stock .facets-container .facets-btn {
+    user-select: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.menu .mark-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1;
+}
+
+.mark-bg-off {
+    display: none;
+}
+
+.menu .filterBar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -30rem;
+    height: 100vh;
+    width: 30rem;
+    background-color: var(--white);
+    z-index: 20;
+    transition: .8s linear;
+}
+
+.filter-active {
+    right: 0 !important;
+}
+
+.menu .filterBar .barTitle {
+    align-self: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.menu .filterBar .barTitle h3{
+    font-size: 1.6rem;
+}
+
+.menu .filterBar .barTitle p{
+    font-size: 1.4rem;
+}
+
+.menu .filterBar .barList {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+
+.menu .filterBar .barList span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.menu .filterBar .barList i {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.filter-btn {
+    position: absolute;
+    top: 10rem;
+    right: 0.8rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.menu .filterBar .confirm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    align-items: flex-end;
+}
+
+.menu .filterBar .confirm span {
+    flex: 1;
+    text-align: center;
+    margin: 0.5rem;
+}

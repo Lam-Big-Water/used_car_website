@@ -1,0 +1,47 @@
+.home-contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-contact .image {
+    flex: 1;
+}
+
+.home-contact .image img {
+    width: 100%;
+}
+
+.home-contact .content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.home-contact .content h3 {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-contact .content p {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+
+
+@media (max-width: 450px) {
+    .home-contact {
+        display: block;
+    }
+
+    .home-contact .image {
+        width: 100%;
+
+    }
+
+    .home-contact .content {
+        width: 100%;
+        padding: 0;
+    }
+}
