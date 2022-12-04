@@ -29,7 +29,7 @@
     color: var(--black);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .home-about .content {
         padding-left: 0;
     }

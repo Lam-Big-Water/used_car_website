@@ -11,7 +11,7 @@
 }
 
 .home-packages .box-container .box {
-    flex: 0 1 38rem;
+    flex: 0 0 32%;
     padding: 1rem 1rem;
     margin-top: 1.5rem;
     box-shadow: var(--box-shadow);
@@ -22,7 +22,7 @@
 
 .home-packages .box-container .box .image {
     width: 100%;
-    height: 25rem;
+    height: auto;
     overflow: hidden;
 }
 
@@ -58,28 +58,21 @@
     margin-top: 2rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .home-packages .box-container .box {
-        flex: 0 0 35rem;
+        flex: 0 0 48%;
     }
 }
+
 
 @media (max-width: 821px) {
     .home-packages .box-container .box {
-        flex: 0 0 33%;
+        flex: 0 0 47%;
     }
-
-    .home-packages .box-container .box .image {
-        height: 20rem;
-    }
-
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .home-packages .box-container .box {
         flex: 0 0 100%;
-    }
-    .home-packages .box-container .box .image {
-        height: 30rem;
     }
 }

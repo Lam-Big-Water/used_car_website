@@ -1,6 +1,7 @@
+// eslint-disable-next-line
 export default 
     {
-        picture: 'images/about.jfif',
+        picture: 'images/services11.png',
         title: 'To Provide A Variety Of High-Quality Vehicles.',
         text1: 'SC Motors was founded 15 years ago in 2007. ',
         text2: 'Noticing that cars have been an inseparable part of daily life, car enthusiast emerges with interest in various type of cars, including classics, JDM’s, sports, and hyper cars. ',

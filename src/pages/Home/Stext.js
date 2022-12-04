@@ -1,20 +1,22 @@
+// eslint-disable-next-line
 export default [
     {
         id:'1',
-        picture:'images/services6.jpg',
-        title:'Car For Sale',
-        text:'SC Motors have a large variety of vehicles available in storage and at the showroom for customers to select.',
+        picture:'images/H_services1.jpeg',
+        title:'INDIVIDUAL AND TEAM',
+        text:'Our talented individuals are our greatest resource. However they can only pursue the extraordinary by working together as a team. By fostering integrity, excellence and generosity, we give each of our people the possibility to express their own full potential – and to be part of something greater.',
     },
     {
         id:'2',
-        picture:'images/services4.jfif',
-        title:'Sell Your Car',
-        text:'Here at SC Motors we’re always looking for more high-quality vehicles, so we provide consignment, purchasing, and trade-in services for customers to select.',
+        picture:'images/H_services2.jpeg',
+        title:'TRADITION AND INNOVATION',
+        text:'Tradition always stems from innovation. The ongoing quest for lasting firsts is what fuels the Ferrari legend. Our ability to combine revolutionary technological solutions with exceptional artisanal craftsmanship is what enables us to create icons that stay timeless in a fast changing world.',
     },
     {
         id:'3',
-        picture:'images/services5.jfif',
-        title:'Import & Export Service',
-        text:'We will take care of all paper works related to import and export details, promising that there will be no hidden charges.',
+        picture:'images/H_services3.jpeg',
+        title:'PASSION AND ACHIEVEMENT',
+        text:'Ferrari’s racing spirit lives on in emotions that transcend the road and the track, ultimately becoming an attitude to life. Nothing excites us more than setting ambitious targets and expectations and then exceeding them, to push every boundary. It is how the power of passion becomes the beauty of achievement.',
     },
 ];
+
