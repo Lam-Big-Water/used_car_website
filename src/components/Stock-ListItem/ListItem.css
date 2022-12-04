@@ -9,7 +9,7 @@
 .list-item .item {
     display: flex;
     flex-direction: column;
-    flex: 0 1 35rem;
+    flex: 0 0 33%;
     padding: 1rem 1rem;
     cursor: pointer;
     overflow: hidden;
@@ -73,25 +73,20 @@
     font-weight: bold;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .list-item .item {
-        flex: 0 1 45rem;
+        flex: 0 1 48%;
     }
 }
 
 @media (max-width: 821px) {
     .list-item .item {
-        flex: 0 1 50%;
-    }
-
-    .list-item .item .item-info {
-        height: 20rem;
+        flex: 0 1 47%;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .list-item .item {
         flex: 1 1 100%;
     }
-
 }

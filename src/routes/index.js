@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Home from '../pages/Home/Home';
 import Stock from '../pages/Stock/Stock';
 import About from '../pages/About/About';

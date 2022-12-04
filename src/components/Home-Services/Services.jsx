@@ -4,7 +4,7 @@ import './Services.css';
 const Services = ({data}) => {
     return (
         <section className='home-packages'>
-            <h1 className='heading-title'>Our services</h1>
+            <h1 className='heading-title'>GIFT IDEAS FOR THE HOLIDAYS</h1>
             <div className='box-container'>
                 {
                     data.map((item) => {

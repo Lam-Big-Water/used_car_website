@@ -1,6 +1,7 @@
+// eslint-disable-next-line
 export default 
     {
-        picture: 'images/about2.jfif',
+        picture: 'images/services10.png',
         title: 'Our Mission',
         text1: 'TO PROVIDE A VARIETY OF HIGH-QUALITY VEHICLES.',
         text2: 'Hong Kong Has Numerous Car Dealerships That Provide Online Trading Platforms, But Consumers Often Found That The Overall Quality Of The Picture And Videos They Show Is Unmatchable To The Vehicle\'s Actual Condition, Causing Consumers To Lose Confidence In Online Car Trading Platforms.',
