@@ -16,12 +16,11 @@ export default [
     {
         path:'/Stock',
         element:<Stock/>,
-        children:[
-            {
-                path:'ItemDetails',
-                element:<ItemDetails/>
-            }
-        ]
+        
+    },
+    {
+        path:'/Stock/ItemDetails',
+        element:<ItemDetails/>,
     },
     {
         path:'/About',

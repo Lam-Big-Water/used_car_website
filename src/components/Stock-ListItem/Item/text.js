@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default [
     {
         id: '1',
@@ -8,7 +9,7 @@ export default [
         dsc:'360 Challenge Stradale',
         label: 'New',
         price: 'HK$2,880,000',
-        path: '/stock/itemDetails',
+        path: 'ItemDetails',
     },
     {
         id: '2',
@@ -19,7 +20,7 @@ export default [
         dsc:'Ferrari Roma',
         label: 'Tailor made',
         price: 'Price On Request',
-        path: '/stock/itemDetails',
+        path: '/Stock/ItemDetails',
     },
     {
         id: '3',
@@ -30,7 +31,7 @@ export default [
         dsc:'Ferrari California T',
         label: 'New',
         price: 'HK$1,680,000',
-        path: '/stock/itemDetails',
+        path: '/Stock/ItemDetails',
     },
     {
         id: '4',
@@ -41,7 +42,7 @@ export default [
         dsc:'Ferrari Roma',
         label: 'Sold',
         price: 'HK$3,088,000',
-        path: '/stock/itemDetails',
+        path: '/Stock/ItemDetails',
     },
     {
         id: '5',
@@ -63,6 +64,6 @@ export default [
         dsc:'Scuderia Spider 16M',
         label: 'New',
         price: 'HK$3,880,000',
-        path: '/stock/itemDetails',
+        path: '/Stock/ItemDetails',
     },
 ];
