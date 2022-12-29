@@ -17,7 +17,6 @@
     box-shadow: var(--box-shadow);
     background: var(--white);
     overflow: hidden;
-
 }
 
 .home-packages .box-container .box .image {
@@ -29,6 +28,7 @@
 .home-packages .box-container .box .image img {
     width: 100%;
     object-fit: cover;
+    vertical-align: bottom;
 }
 
 .home-packages .box-container .box .image img:hover {
